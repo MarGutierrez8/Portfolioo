@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mi Portfolio · Mar Gutiérrez</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	
+
+
+<!--CSS-->
+
+
+	<style>
+		*{
+		margin: 0;
+		padding:0;
+		box-sizing: border-box;
+		}
+ 
+		body {
+		font-family: Arial Narrow, sans-serif;
+		line-height:1.6;
+		background: #cfa6a6;
+		color: #641f28;
+		}
+ 
+		header {
+		background: #641f28;
+		color: #cfa6a6;
+		padding: 20px;
+		text-align: center;
+		}
+ 
+		header h1 {
+		font-family: Oswald, sans-serif;
+		margin-bottom: 15px;
+		font-size: 60px;
+		}
+ 
+		nav ul {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		list-style: none;
+		}
+ 
+		nav a {
+		color: #cfa6a6;
+		text-decoration: none;
+		}
+ 
+		nav a:hover {
+		color: #e6d7bf;
+		}
+
+		section {
+		padding: 50px;
+		color: #641f28;
+		font-size: 16px;
+		}
+
+		.contenido {
+		width: 90%;
+		max-width: 900px;
+		margin: 30px auto;
+		}
+	
+		img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+		margin-top: 10px;
+		}		
+
+		.altura-determinada {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		}
+
+
+		footer{
+		background: #641f28;
+		color: #cfa6a6;
+		text-align: center;
+		padding: 15px;
+		}
+		</style>
+	</head>
+
+
+<!--HTML-->
+
+
+	<body>
+	<header>
+		<h1>Mi portfolio · Mar Gutiérrez</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Presentación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>
+ 
+	<section id="Estudios">	
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+				<img src="zfotoestudios1.jpg" alt="estudios 1" class="img-fluid altura-determinada">
+				</div>
+				<div class="col-6 text-start">
+				<h3>Estudios</h3>
+				<p>·Grado Medio Confección y Moda.<br>·Grado Superior Diseño y Edición de Publicaciones Impresas y Múltimedia.</p>
+				</div>
+				<div class="col-4">
+				<img src="zfotoestudios2.jpg" alt="estudios 2" class="img-fluid altura-determinada">
+				</div>
+			</div>
+		</div>
+		</section>
+
+	<section id="Experiencia laboral">	
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+				<img src="zfotolaboral1.jpg" alt="laboral 1" class="img-fluid altura-determinada">
+				</div>
+				<div class="col-6 text-start">
+				<h3>Experiencia laboral</h3>
+				<p>·Confección de toldos · Saxun.<br>·Diseño gráfico · Jesús Poveda Servicios Gráficos y Publicidad.</p>
+				</div>
+				<div class="col-2">
+				<img src="zfotolaboral2.jpg" alt="laboral 2" class="img-fluid altura-determinada">
+				</div>
+			</div>
+		</div>
+		</section>
+
+
+	<footer>
+		&copy; 2026 Mi portfolio
+		</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 	</body>
+</html>

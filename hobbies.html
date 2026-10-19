@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mi Portfolio · Mar Gutiérrez</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	
+
+
+<!--CSS-->
+
+
+	<style>
+		*{
+		margin: 0;
+		padding:0;
+		box-sizing: border-box;
+		}
+ 
+		body {
+		font-family: Arial Narrow, sans-serif;
+		line-height:1.6;
+		background: #cfa6a6;
+		color: #641f28;
+		}
+ 
+		header {
+		background: #641f28;
+		color: #cfa6a6;
+		padding: 20px;
+		text-align: center;
+		}
+ 
+		header h1 {
+		font-family: Oswald, sans-serif;
+		margin-bottom: 15px;
+		font-size: 60px;
+		}
+ 
+		nav ul {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		list-style: none;
+		}
+ 
+		nav a {
+		color: #cfa6a6;
+		text-decoration: none;
+		}
+ 
+		nav a:hover {
+		color: #e6d7bf;
+		}
+
+		.contenido {
+		width: 90%;
+		max-width: 900px;
+		margin: 30px auto;
+		}
+
+		.accordion-button {
+		background-color: #cfa6a6;
+		color: #641f28;
+		font-family: Arial Narrow, sans-serif;
+		font-size: 20px;
+		padding: 20px;
+		} 
+
+		.accordion-item {
+		background-color: #cfa6a6;
+		border: 1px solid #641f28;
+		}
+
+		.accordion-button:not(.collapsed) {
+		background-color: #e6d7bf;
+		color: #641f28;
+		box-shadow: none; 
+		}
+
+		.accordion-body {
+		background-color: #cfa6a6;
+		color: #641f28;
+		font-family: Arial Narrow, sans-serif;
+		font-size: 18px;
+		padding: 30px;
+		}
+
+		.frase-lectura {
+   		font-family: Arial Narrow, sans-serif;
+   		font-style: italic;
+		}
+
+		img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+		margin-top: 10px;
+		margin-bottom: 30px;
+		}
+
+		.altura-determinada1 {
+		height: 800px;
+		object-fit: cover;
+		}
+
+		.altura-determinada2 {
+		height: 380px;
+		object-fit: cover;
+		}
+
+
+		footer{
+		background: #641f28;
+		color: #cfa6a6;
+		text-align: center;
+		padding: 15px;
+		}
+
+
+		</style>
+	</head>
+
+
+<!--HTML-->
+
+
+	<body>
+	<header>
+		<h1>Mi portfolio · Mar Gutiérrez</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Presentación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header> 
+
+<div class="contenido">
+<div class="accordion" id="accordionhobbies">
+<!-- CONFECCION -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+	  Confección y Moda
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionhobbies">
+      <div class="accordion-body">
+        		De vez en cuando hago algún arreglo o incluso confecciono alguna prenda o accesorio.
+			<div class="container">
+			<div class="row">
+				<div class="col">
+				<img src="zfotoconfeccion1.jpg" alt="confeccion1" class="img-fluid altura-determinada1">
+				</div>
+				<div class="col">
+					<div><img src="zfotoconfeccion2.jpg" alt="confeccion2" class="img-fluid altura-determinada2"></div>
+					<div><img src="zfotoconfeccion3.jpg" alt="confeccion3" class="img-fluid altura-determinada2"></div>
+				</div>
+			</div>
+			</div>
+      </div>
+    </div>
+  </div>
+
+<!-- ARTE -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Arte
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionhobbies">
+      <div class="accordion-body">
+			<div><img src="zfotoarte1.jpg" alt="arte1" class="img-fluid"></div>
+			Desde pequeña me he interesado por el dibujo, la pintura y las manualidades aún que en este momento no les dedico mucho tiempo.
+			<div><img src="zfotoarte2.jpg" alt="arte2" class="img-fluid"></div>
+      </div>
+    </div>
+  </div>
+
+<!-- LECTURA -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	   Lectura
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionhobbies">
+      <div class="accordion-body">
+			<p class="frase-lectura">
+			“¿De qué otro modo podrías vivir mil vidas en el período de una sola?”</p>
+			<div class="container">
+			<div class="row">
+				<div class="col-8">
+				<img src="zfotolectura1.jpg" alt="lectura1" class="img-fluid altura-determinada1">
+				</div>
+				<div class="col-4">
+					<div><img src="zfotolectura2.jpg" alt="lectura2" class="img-fluid altura-determinada1"></div>
+				</div>
+			</div>
+		</div>
+		Hobbie que he mantenido desde pequeña.
+      </div>
+    </div>
+  </div>	
+
+<!-- MUSICA -->
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Música
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionhobbies">
+      <div class="accordion-body">
+			Mis artistas más escuchados en 2026.
+			<div class="container">
+			<div class="row">
+				<div class="col">
+				<img src="zfotomusica1.jpg" alt="musica1" class="img-fluid">
+				</div>
+				<div class="col">
+				<img src="zfotomusica2.jpg" alt="musica2" class="img-fluid">
+				</div>
+				<div class="col">
+				<img src="zfotomusica3.jpg" alt="musica3" class="img-fluid">
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+	<footer>
+		&copy; 2026 Mi portfolio
+		</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 	</body>
+</html>
